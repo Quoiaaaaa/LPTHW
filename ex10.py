@@ -14,3 +14,9 @@ print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
+
+# Rotating the slash
+
+while True:
+    for i in ["/","-","|","\\","|"]:
+        print "%s\r" % i,
